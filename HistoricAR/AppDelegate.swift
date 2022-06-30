@@ -4,13 +4,17 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var navigationViewController: UINavigationController = UINavigationController()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        window = UIWindow()
-                window?.makeKeyAndVisible()
-                let vc = LoginViewController()
-                window?.rootViewController = vc
+        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        self.window?.backgroundColor = UIColor.white
+        self.window!.tintColor = UIColor(hex:0x56C271)
+        self.navigationViewController = UINavigationController.init(rootViewController: MenuPage())
+        self.window?.rootViewController = self.navigationViewController
+        self.window?.makeKeyAndVisible()
+
         return true
     }
 

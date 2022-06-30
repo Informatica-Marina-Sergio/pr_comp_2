@@ -5,10 +5,28 @@
   },
   "resources" : [
     {
-      "filename" : "mugal.arobject"
+      "filename" : "carlosiii_madrid_1.arobject"
     },
     {
-      "filename" : "pigal.arobject"
+      "filename" : "miradero_toledo_2.arobject"
+    },
+    {
+      "filename" : "miradero_toledo_3.arobject"
+    },
+    {
+      "filename" : "miradero_toledo.arobject"
+    },
+    {
+      "filename" : "palmera_madrid_1.arobject"
+    },
+    {
+      "filename" : "zocodover_toledo_2.arobject"
+    },
+    {
+      "filename" : "zocodover_toledo_3.arobject"
+    },
+    {
+      "filename" : "zocodover_toledo.arobject"
     }
   ]
 }

@@ -73,6 +73,7 @@ extension WaveView {
     
     func setUpProgress() {
         
+        // TODO: volver a hacer las olas
         firstLayer.setValue(600, forKeyPath: "position.y")
         secondLayer.setValue(590, forKeyPath: "position.y")
         

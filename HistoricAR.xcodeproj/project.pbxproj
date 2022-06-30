@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		229A650E286A7ECC0083F759 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A650D286A7ECC0083F759 /* ContentView.swift */; };
+		229A6518286B4A680083F759 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229A6517286B4A680083F759 /* ContentViewController.xib */; };
+		229A651A286B7D560083F759 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A6519286B7D560083F759 /* ListViewController.swift */; };
 		229D70A62842420800E6A182 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D70A52842420800E6A182 /* ARViewController.swift */; };
 		229D70DE28427C3000E6A182 /* ARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229D70DD28427C3000E6A182 /* ARViewController.xib */; };
 		229D70E228429B0D00E6A182 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D70E128429B0D00E6A182 /* Wave.swift */; };
 		229D70E42842B2BD00E6A182 /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D70E32842B2BD00E6A182 /* WaveView.swift */; };
+		22B867C62868F0A1003387CA /* MenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B867C52868F0A1003387CA /* MenuPage.swift */; };
+		22B867C82868F0AD003387CA /* MenuPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B867C72868F0AD003387CA /* MenuPage.xib */; };
+		22B867CA28691781003387CA /* InstructionsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B867C928691781003387CA /* InstructionsPage.swift */; };
+		22B867CC28691790003387CA /* InstructionsPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B867CB28691790003387CA /* InstructionsPage.xib */; };
 		5215968720D27461006E670B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5215968620D27461006E670B /* AppDelegate.swift */; };
 		5215968920D27461006E670B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5215968820D27461006E670B /* art.scnassets */; };
 		5215968E20D27461006E670B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5215968C20D27461006E670B /* Main.storyboard */; };
@@ -21,10 +28,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		229A650D286A7ECC0083F759 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		229A6517286B4A680083F759 /* ContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
+		229A6519286B7D560083F759 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		229D70A52842420800E6A182 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		229D70DD28427C3000E6A182 /* ARViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARViewController.xib; sourceTree = "<group>"; };
 		229D70E128429B0D00E6A182 /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
 		229D70E32842B2BD00E6A182 /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		22B867C52868F0A1003387CA /* MenuPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPage.swift; sourceTree = "<group>"; };
+		22B867C72868F0AD003387CA /* MenuPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuPage.xib; sourceTree = "<group>"; };
+		22B867C928691781003387CA /* InstructionsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsPage.swift; sourceTree = "<group>"; };
+		22B867CB28691790003387CA /* InstructionsPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstructionsPage.xib; sourceTree = "<group>"; };
 		5215968320D27461006E670B /* HistoricAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HistoricAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5215968620D27461006E670B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5215968820D27461006E670B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -47,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		229A650C286A7D140083F759 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				229A650D286A7ECC0083F759 /* ContentView.swift */,
+				229A6517286B4A680083F759 /* ContentViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		229D70E02842993600E6A182 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +98,7 @@
 		5215968520D27461006E670B /* HistoricAR */ = {
 			isa = PBXGroup;
 			children = (
+				229A650C286A7D140083F759 /* Views */,
 				229D70E02842993600E6A182 /* Shapes */,
 				8537D28628418963004DDEA9 /* LoginViewController.swift */,
 				8537D28728418963004DDEA9 /* LoginViewController.xib */,
@@ -86,6 +110,11 @@
 				5215969420D27462006E670B /* Info.plist */,
 				229D70A52842420800E6A182 /* ARViewController.swift */,
 				229D70DD28427C3000E6A182 /* ARViewController.xib */,
+				22B867C52868F0A1003387CA /* MenuPage.swift */,
+				22B867C72868F0AD003387CA /* MenuPage.xib */,
+				22B867C928691781003387CA /* InstructionsPage.swift */,
+				22B867CB28691790003387CA /* InstructionsPage.xib */,
+				229A6519286B7D560083F759 /* ListViewController.swift */,
 			);
 			path = HistoricAR;
 			sourceTree = "<group>";
@@ -148,12 +177,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B867C82868F0AD003387CA /* MenuPage.xib in Resources */,
 				5215968920D27461006E670B /* art.scnassets in Resources */,
 				5215969320D27462006E670B /* LaunchScreen.storyboard in Resources */,
 				8537D28928418963004DDEA9 /* LoginViewController.xib in Resources */,
 				5215969020D27462006E670B /* Assets.xcassets in Resources */,
 				5215968E20D27461006E670B /* Main.storyboard in Resources */,
 				229D70DE28427C3000E6A182 /* ARViewController.xib in Resources */,
+				229A6518286B4A680083F759 /* ContentViewController.xib in Resources */,
+				22B867CC28691790003387CA /* InstructionsPage.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,10 +197,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8537D28828418963004DDEA9 /* LoginViewController.swift in Sources */,
+				229A650E286A7ECC0083F759 /* ContentView.swift in Sources */,
 				229D70E228429B0D00E6A182 /* Wave.swift in Sources */,
+				22B867CA28691781003387CA /* InstructionsPage.swift in Sources */,
 				5215968720D27461006E670B /* AppDelegate.swift in Sources */,
+				229A651A286B7D560083F759 /* ListViewController.swift in Sources */,
 				229D70E42842B2BD00E6A182 /* WaveView.swift in Sources */,
 				229D70A62842420800E6A182 /* ARViewController.swift in Sources */,
+				22B867C62868F0A1003387CA /* MenuPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +352,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2GZ6VZ648W;
+				DEVELOPMENT_TEAM = WZ94CBR93A;
 				INFOPLIST_FILE = HistoricAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -336,7 +372,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2GZ6VZ648W;
+				DEVELOPMENT_TEAM = WZ94CBR93A;
 				INFOPLIST_FILE = HistoricAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

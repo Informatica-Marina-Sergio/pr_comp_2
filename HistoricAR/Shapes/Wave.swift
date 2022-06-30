@@ -1,10 +1,3 @@
-//
-//  Wave.swift
-//  HistoricAR
-//
-//  Created by Marina Alcaide Cea on 28/5/22.
-//  Copyright © 2022 Brian Advent. All rights reserved.
-//
 
 import SwiftUI
 
